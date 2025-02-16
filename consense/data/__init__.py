@@ -1,0 +1,1 @@
+DATASETS = ["wiar","mmfi","xrf"]
