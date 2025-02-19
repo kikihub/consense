@@ -10,7 +10,7 @@ from torch.utils.data import Dataset
 
 class XRF48(Dataset):
 
-    base_folder = 'xrf-48new-python-14train6test'
+    base_folder = 'xrf-48new-python'
 
     def __init__(self,train: bool = True,root:str = '') -> None:
 

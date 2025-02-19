@@ -139,7 +139,7 @@ class XRFConstants:
     neurons_in_channels = 50
     compute_prototypes = compute_prototypes_xrf
 
-# 字典映射数据集名称到对应的常量类
+
 getconst = {
     "wiar": WIARConstants,
     "mmfi": MMFIConstants,

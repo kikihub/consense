@@ -10,7 +10,7 @@ from torch.utils.data import Dataset
 import random
 class MMFI27(Dataset):
     
-    base_folder = 'mmfi-27-python-80train20test'
+    base_folder = 'mmfi-27-python'
 
     def __init__(self,train: bool = True,root:str = '') -> None:
 

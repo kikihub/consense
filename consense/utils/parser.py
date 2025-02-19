@@ -16,7 +16,7 @@ def get_parser():
     parser.add_argument("--n_warmup_epochs", type=int, default=0)
     parser.add_argument("--n_tasks", type=int, default=-1)
 
-    parser.add_argument("--log_path", type=str, default="/data1/smy1/lr/work2_compress/fixhead/consense/log/")
+    parser.add_argument("--log_path", type=str, default="xxx/consense/log/")
 
     parser.add_argument("--lr", type=float, default=0.0001)
 

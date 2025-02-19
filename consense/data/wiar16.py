@@ -10,7 +10,7 @@ from torch.utils.data import Dataset
 
 class WIAR16(Dataset):
 
-    base_folder = 'wiar-16-python-24train6test'
+    base_folder = 'wiar-16-python'
 
     def __init__(self,train: bool = True,root:str = '') -> None:
 
